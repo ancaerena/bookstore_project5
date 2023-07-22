@@ -4,9 +4,10 @@ html {
 
 
 body {
-    height: calc(100vh - 164px);
+    background: url('/media/logo.png') no-repeat center center fixed;
     color: #555;
     font-family: 'Gentium Book Plus';
+    
 }
 
 #topnav {
