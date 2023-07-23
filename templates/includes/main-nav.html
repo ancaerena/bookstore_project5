@@ -17,10 +17,10 @@
                 BookShelf for Adults
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="adults-link">
-                <a href="" class="dropdown-item">Romance</a>
-                <a href="" class="dropdown-item">Biography and Autobiography</a>
-                <a href="" class="dropdown-item">SF</a>
-                <a href="" class="dropdown-item">All Adults Books on the Shelf</a>
+                <a href="{% url 'books' %}?category=romance" class="dropdown-item">Romance</a>
+                <a href="{% url 'books' %}?category=bio_autobio" class="dropdown-item">Biography and Autobiography</a>
+                <a href="{% url 'books' %}?category=sf" class="dropdown-item">SF</a>
+                <a href="{% url 'books' %}?category=romance,sf,bio_autobio" class="dropdown-item">All Adults Books on the Shelf</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 BookShelf for Children
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="children-link">
-                <a href="" class="dropdown-item">School</a>
-                <a href="" class="dropdown-item">Children SF</a>
-                <a href="" class="dropdown-item">Comic books</a>
-                <a href="" class="dropdown-item">All Children Books on the Shelf</a>
+                <a href="{% url 'books' %}?category=school" class="dropdown-item">School</a>
+                <a href="{% url 'books' %}?category=children_sf" class="dropdown-item">Children SF</a>
+                <a href="{% url 'books' %}?category=comic_books" class="dropdown-item">Comic books</a>
+                <a href="{% url 'books' %}?category=school,children_sf,comic_books" class="dropdown-item">All Children Books on the Shelf</a>
             </div>
         </li>
         <li class="nav-item dropdown">
