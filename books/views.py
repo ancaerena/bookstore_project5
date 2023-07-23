@@ -11,15 +11,29 @@ def all_books(request):
     books = Book.objects.all()
     query = None
     categories = None
+    sort = None
+    direction = None
 
     if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'name':
+                sortkey = 'lower_name'
+                books = books.annotate(lower_name=Lower('name'))
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            books = books.order_by(sortkey)
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             books = books.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
 
-    if request.GET:
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -28,12 +42,13 @@ def all_books(request):
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             books = books.filter(queries)
-
+    current_sorting = f'{sort}_{direction}'
 
     context = {
         'books': books,
         'search_term': query,
         'current_categories': categories,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'books/books.html', context)
