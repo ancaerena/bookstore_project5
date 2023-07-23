@@ -14,7 +14,7 @@
         Currently active subjects: {{count}}
         <form method="POST" action="{% url 'addInSubject' %}">
             {% csrf_token %}
-        <button class="btn btn-success btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
+        <button class="btn btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
         </form>
     </h2>
         <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
@@ -31,7 +31,6 @@
                     </h5>
                         <hr>
                     <p> By: {{ subject.name }}</p>
-                    email- {{ subject.email }}
                     <hr>     
                     <h4 class="nav-font">What other people have to say</h4>
                     {% for comment in comments %}
@@ -44,7 +43,7 @@
                     {%endfor%}
                     <form method="POST" action="{% url 'addInComments' %}">
                         {% csrf_token %}
-                    <button class="btn btn-success btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
+                    <button class="btn btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
                     </form>
                     </div>
                 </div>

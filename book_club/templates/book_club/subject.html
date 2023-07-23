@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-    <form action="{% url 'addInComments' %}" method="POST">
+    <form action="{% url 'addInSubject' %}" method="POST">
         {% csrf_token %}
         {{form.as_p}}
         <input type="submit" class="btn btn-black" value="submit">
