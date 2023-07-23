@@ -4,10 +4,9 @@ html {
 
 
 body {
-    background: url('/media/logo.png');
+    background: url('/media/logo.png') no-repeat center center fixed;
     color: #555;
     font-family: 'Gentium Book Plus';
-    
 }
 
 #topnav {
@@ -54,7 +53,7 @@ body {
 }
 
 .text-black {
-    color: rgb(58, 56, 55); !important;
+    color: rgb(58, 56, 55);
 }
 
 .border-black {
@@ -96,5 +95,16 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
