@@ -14,6 +14,7 @@ class BookAdmin(admin.ModelAdmin):
     )
 
     ordering = ('sku',)
+    readonly_fields = ('id', )
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (

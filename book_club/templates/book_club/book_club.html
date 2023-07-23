@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <h2 class="jumbotron">
+        Currently active subjects: {{count}}
+        <form method="POST" action="{% url 'addInSubject' %}">
+            {% csrf_token %}
+        <button class="btn btn-success btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
+        </form>
+    </h2>
+        <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
+    
+    
+        {%for subject in subjects %}
+    
+            <div class="card box container">
+                <br>
+                <h5 class="card-title">
+                    <a href='{{ subject.link }}'><h3>{{ subject.topic }}</h3></a> 
+                    <div class="card-body container">
+                        <p>{{ subject.description }}</p>
+                    </h5>
+                        <hr>
+                    <p> By: {{ subject.name }}</p>
+                    email- {{ subject.email }}
+                    <hr>     
+                    <h4 class="nav-font">What other people have to say</h4>
+                    {% for comment in comments %}
+                    {% for objs in comment %}  
+                    {% if objs.subject == subject %}
+                       {{ objs.comment }}
+                       <br>
+                    {% endif %}
+                    {%endfor%}
+                    {%endfor%}
+                    <form method="POST" action="{% url 'addInComments' %}">
+                        {% csrf_token %}
+                    <button class="btn btn-success btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+    <br>
+    
+        {%endfor%}
+{% endblock %}
