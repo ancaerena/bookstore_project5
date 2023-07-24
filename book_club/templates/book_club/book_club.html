@@ -19,8 +19,9 @@
     </h2>
         <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
     
-    
-        {%for subject in subjects %}
+        
+
+        {% for subject in subjects %}
     
             <div class="card box container">
                 <br>
@@ -33,14 +34,13 @@
                     <p> By: {{ subject.name }}</p>
                     <hr>     
                     <h4 class="nav-font">What other people have to say</h4>
-                    {% for comment in comments %}
-                    {% for objs in comment %}  
-                    {% if objs.subject == subject %}
-                       {{ objs.comment }}
-                       <br>
-                    {% endif %}
-                    {%endfor%}
-                    {%endfor%}
+                    
+                    {% for comment in commentlist %}
+                        {% if comment.subject == subject %}
+                            <h3>{{ comment.discuss }}</h3>
+                        {% endif %}
+                    {% endfor %}
+
                     <form method="POST" action="{% url 'addInComments' %}">
                         {% csrf_token %}
                     <button class="btn btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
@@ -48,7 +48,6 @@
                     </div>
                 </div>
             </div>
-    <br>
-    
-        {%endfor%}
+            <br />
+        {% endfor %}
 {% endblock %}
