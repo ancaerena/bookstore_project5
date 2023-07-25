@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'books',
     'book_club',
     'bag',
+    'checkout',
 ]
 
 MIDDLEWARE = [
