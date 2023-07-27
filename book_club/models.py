@@ -1,5 +1,7 @@
 from django.db import models
 
+from profiles.models import UserProfile
+
 # Create your models here.
 class Subject(models.Model):
     name = models.CharField(max_length=200,default="anonymous" )
