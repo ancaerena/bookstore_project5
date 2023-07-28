@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/accounts/signup/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/accounts/login/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/bag/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=romance</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=bio_autobio</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=sf</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=romance,sf,bio_autobio</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=school</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=children_sf</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=comic_books</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/?category=school,children_sf,comic_books</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/book_club/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/accounts/password/reset/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/26/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/11/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/30/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/7/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/16/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/17/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/20/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/8/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/14/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/27/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/9/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/29/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/18/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/21/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/28/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/6/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/12/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/13/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/24/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/2/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/15/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/25/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/31/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/19/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/22/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/23/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/10/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/3/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/4/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/1/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://8000-ancaerena-bookstoreproj-jsmwz9fayd7.ws-eu102.gitpod.io/books/5/</loc>
+  <lastmod>2023-07-28T23:38:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
