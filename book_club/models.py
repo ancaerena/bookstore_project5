@@ -20,6 +20,7 @@ class Comments(models.Model):
 
     subject = models.ForeignKey(Subject,blank=True,on_delete=models.CASCADE)
     discuss = models.CharField(max_length=1000)
+
  
     def __str__(self):
         # return str(self.subject)

@@ -182,7 +182,11 @@ a.category-badge > span.badge:hover {
   .container {
     max-width: 80%;
   }
+  #mc_embed_signup {
+    width: auto;
 }
+}
+  
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {

@@ -10,13 +10,13 @@
 {% endblock %}
 
 {% block content %}
-    <h2 class="jumbotron">
-        Currently active subjects: {{count}}
+    <div>
+        <h3 class="text-center"> Currently active subjects: {{count}}</h3>
         <form method="POST" action="{% url 'addInSubject' %}">
             {% csrf_token %}
-        <button class="btn btn-black" style="width:fit-content; padding: 4px; margin:10px;">Join the chat</button>
+        <button class="btn btn-black" style="width:fit-content; padding: 4px; margin:10px; margin-left: 48%;">Join the chat</button>
         </form>
-    </h2>
+    </div>
         <div class="card-columns" style="padding: 10px; margin: 20px;"></div>
     
         
