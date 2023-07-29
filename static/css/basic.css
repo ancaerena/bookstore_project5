@@ -14,6 +14,12 @@ body {
     background-size: cover;
 }
 
+.home-background {
+    background: url('/media/homepage_background_cropped.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -182,9 +188,6 @@ a.category-badge > span.badge:hover {
   .container {
     max-width: 80%;
   }
-  #mc_embed_signup {
-    width: auto;
-}
 }
   
 /* Allauth form formatting */
@@ -294,6 +297,13 @@ a.category-badge > span.badge:hover {
     body {
         height: calc(100vh - 116px);
     }
+
+    #mc_embed_signup {
+        width: 100%;
+    }
+    div.row.h-100 {
+        width: 100%;
+    }
 }
 
 /* Mailchimp css */
@@ -302,4 +312,5 @@ a.category-badge > span.badge:hover {
     clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
     width: 600px;
+    background: url('/media/logo.png') no-repeat center center fixed
 }
