@@ -119,15 +119,33 @@ The workspace was deployed to Heroku aat the end.<br>
 -No errors were returned when passing through the PEP8 Linter - https://pep8ci.herokuapp.com/
 <br>
 <br>
-<h2>Deployment</h2>
+<br><h2>Deployment</h2>
 <br>
 - This project had an initial deployment at the beginning to Heroku
 <br>
-A. Create a new Heroku app
+A. Create a new Heroku app:
+- Log to Heroku<br>
+- On Dashboard, click on New and Create New App<br>
+- Add a name to your new app and click create app<br>
 <br>
-B. Link the Heroku app to the repository
+B. Create a database on ElephantSQL.com<br>
+- Create an account and create a new instance.<br>
+-Select the free Tiny Turtle Plan and select a region.<br>
+- Once the instance is created, copy the URL for the database<br>
 <br>
-C.Click on Deploy
+C. Create Heroku Vars
+<br>
+- From Settings, Show Config Vars and add the data base URL, the secret key<br>
+-Add the port value 800, the Cloudinary URL after creating a free account.<br>
+<br>
+D. Link the Heroku app to the repository<br>
+- Go to Deploy Tab<br>
+- Select Github for Deployment method<br>
+- Search for your blog repo <br>
+- Select Main as deployed branch and press deploy.<br>
+- A new app link will be created. <br>
+<br>
+The depolyed project can be found here: https://the-office.herokuapp.com/
 <br>
 <h2>Credits</h2>
 <br>
