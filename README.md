@@ -136,7 +136,7 @@ B. Create a database on ElephantSQL.com<br>
 C. Create Heroku Vars
 <br>
 - From Settings, Show Config Vars and add the data base URL, the secret key<br>
--Add the port value 800, the Cloudinary URL after creating a free account.<br>
+-Add the AWS keys, the database URL, and stripe keys <br>
 <br>
 D. Link the Heroku app to the repository<br>
 - Go to Deploy Tab<br>
@@ -145,7 +145,7 @@ D. Link the Heroku app to the repository<br>
 - Select Main as deployed branch and press deploy.<br>
 - A new app link will be created. <br>
 <br>
-The depolyed project can be found here: https://the-office.herokuapp.com/
+The depolyed project can be found here: https://thebookshelfchair-c10ecc9e636c.herokuapp.com/
 <br>
 <h2>Credits</h2>
 <br>
