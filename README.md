@@ -106,6 +106,68 @@ with content like: new book releases, news about authors, creating polls and com
 <br>
 <img src="media/folder_called_includes.jpg" alt="error">
 <br>
+<h3>Testing</h3><br>
+<br>
+<h2>Manual testing of each section of the site</h2>
+- Admin:<br>
+<br>
+The admin can log through the admin pannel on https://thebookshelfchair-c10ecc9e636c.herokuapp.com/admin where they have access to the control pannel.<br>
+<br>
+The admin can add and delete books and categorise, approve users and create topics for the Book Club.<br>
+<br>
+<img src="media/AdminPannel.jpg" alt="admin pannel">
+<br>
+On the interface, the admin can edit books, delete them or add new ones.<br>
+<br>
+<img src="media/AdminEditDelete.jpg" alt="admin edit or delete books"><br>
+<img src="media/AdminEdit.jpg" alt="admin edit books"><br>
+<img src="media/AdminAdd.jpg" alt="admin add books"><br>
+- User<br>
+The User can create an account or login to an existing one.<br>
+<img src="media/UserLogin.jpg" alt="new user login or register"><br>
+<br>
+When a new user is creating an account, he is promoted to add his email address and create a password.<br>
+<img src="media/UserRegister.jpg" alt="user registration form"><br>
+<br>
+A confirmation email it is sent to the user. This section was tested with a temporary generated email, as per below.<br>
+<br>
+<img src="media/ConfirmationEmail.jpg" alt="confirmation email test"><br>
+<img src="media/ConfEmailRec.jpg" alt="confirmation email test"><br>
+<img src="media/ConfEmail1.jpg" alt="confirmation email test"><br>
+<br> A verification email is sent to the new user, with a link which brings the user back to the bookstore's page.<br>
+Once the email is confirmed, the user can start their shopping.<br>
+Note that the user can add to bag without being login as well. But they can create an account or login to keep their order history<br>
+<img src="media/UserCheckout.jpg" alt="unregistered user checkout"><br>
+<img src="media/UserCheckout1.jpg" alt="unregistered user checkout"><br>
+<br>
+The user can browse the store, check out the categories and read descriptions of the books by opening them.<br>
+The user can also update quantity when adding to bag a certain product<br>
+<img src="media/UserAddToBag.jpg" alt="user adds to the shopping bag"><br>
+<br>
+A message pops up in the right corner every time a new product is added to the shopping bag.<br>
+<img src="media/UserAddToBagMessage.jpg" alt="unregistered user checkout"><br>
+The user can then edit their bag by clicking on the blue bag icon from the top right.<br>
+There they can delete products or adjust quantity.<br>
+<img src="media/UserEditBag.jpg" alt="user edit bag"><br>
+<br>
+The user can subscribe to the mailing list to keep in touch with offers and latest news about published books.<br>
+A confirmation message about their subscription will be promted after they enter their email.<br>
+<img src="media/SubscribeConf.jpg" alt="user subscribes"><br>
+In case the email is already subscribed, the message to confirm that also shows up.<br>
+<img src="media/Subscribe.jpg" alt="user already subscribed"><br>
+<br>
+The user can also navigate to the Book Club where he can join a topic already in debate.<br>
+Their comment is automatically added to that specific topic.<br>
+<img src="media/JoinTheChat.jpg" alt="user adds a comment to a topic in the Book Club"><br>
+<img src="media/JoinTheChatAdded.jpg" alt="user's comment is added"><br>
+<br>
+A link to the book in discussion is added to transfer the user to the product, in case he would like to read more or purchase it.<br>
+<br>
+When the user checkout, a confirmation email is sent to his email address.<br>
+<img src="media/CheckOutTest.jpg" alt="user's checkout bag"><br>
+<img src="media/CheckOutTest1.jpg" alt="user's checkout bag"><br>
+
+
 <h2>Data Model</h2>
 <br>
 The code has models, templates and views, working on the Django framework.<br>
@@ -116,8 +178,13 @@ The workspace was deployed to Heroku aat the end.<br>
 <br>
 <h3>Validator testing</h3>
 <br>
--No errors were returned when passing through the PEP8 Linter - https://pep8ci.herokuapp.com/
+-No errors were returned when passing through the PEP8 Linter - https://pep8ci.herokuapp.com/, only spaces and lines too long<br>
 <br>
+<img src="media/PIP3validator.jpg" alt="python validator">
+<br>
+- No errors were returned when passing through https://jigsaw.w3.org/css-validator/ <br>
+<br>
+<img src="media/CSSvalidator.jpg" alt="css validator">
 <br>
 <br><h2>Deployment</h2>
 <br>
@@ -136,7 +203,7 @@ B. Create a database on ElephantSQL.com<br>
 C. Create Heroku Vars
 <br>
 - From Settings, Show Config Vars and add the data base URL, the secret key<br>
--Add the AWS keys, the database URL, and stripe keys <br>
+-Add the AWS keys, the database URL, stripe keys, email config <br>
 <br>
 D. Link the Heroku app to the repository<br>
 - Go to Deploy Tab<br>
